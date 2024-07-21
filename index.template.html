@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400&display=swap" rel="stylesheet">
+        <style>
+            html, body {
+                font-family: 'Onest', sans-serif;
+                background-color: #d7d2c7;
+                color: #000000;
+            }
+
+            .column {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .row {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .card-neutral {
+                background-color: #e1e1e1;
+                border-radius: 16px;
+                padding: 16px;
+            }
+
+            .card-good {
+                background-color: #9bd2a3;
+                border-radius: 16px;
+                padding: 16px;
+            }
+
+            .card-meh {
+                background-color: #d2c49b;
+                border-radius: 16px;
+                padding: 16px;
+            }
+
+            .card-no {
+                background-color: #d29b9b;
+                border-radius: 16px;
+                padding: 16px;
+            }
+
+            .game-card {
+                background-color: #9bd2a3;
+                border-radius: 16px;
+                padding: 16px;
+            }
+
+            .margin-top {
+                margin-top: 16px;
+            }
+
+            .margin-bottom {
+                margin-bottom: 16px;
+            }
+
+            .heading {
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            .small {
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            .margin-right-small {
+                margin-right: 8px;
+            }
+
+            .margin-top-small {
+                align-self: center;
+                font-family: 'Fira Mono';
+            }
+
+            .epic {
+                background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+                background-size: 800% 800%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: rainbow 4s linear infinite;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            @keyframes rainbow {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 25%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="column card-neutral margin-bottom">
+            <span class="heading">Furry Games Ranking</span>
+            <span>A list of furry games played and ranked by me (Myst33d)</span>
+        </div>
+        <div class="column card-good margin-bottom">
+            <span style="font-size: 24px; font-weight: 700;">Good</span>
+            <span>Games which are actually enjoyable.</span>
+            {% for entry in data["good"] %}
+            <div class="column card-neutral margin-top">
+                <div class="row">
+                    <span class="heading margin-right-small">{{ entry["name"] }}</span>
+                    <span class="small margin-top-small margin-right-small">{{ entry["genre"] }}</span>
+                    <img style="align-self: center;" src="assets/{{ entry["engine"] }}.png" height="24px">
+                </div>
+                {{ entry["description"] }}
+                {% if entry["epic"] %}
+                <div class="row">
+                    <img src="assets/epic.png" width="32px">
+                    <span style="align-self: center; padding-left: 4px; padding-right: 4px;" class="epic">Epic</span>
+                </div>
+                {% endif %}
+                {% for warning in entry["warnings"] %}
+                <span style="font-weight: 700;">⚠️ {{ warning }} ⚠️</span>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        <div class="column card-meh margin-bottom">
+            <span style="font-size: 24px; font-weight: 700;">Meh</span>
+            <span>Just bland and not very interesting games. No offense.</span>
+            {% for entry in data["mid"] %}
+            <div class="column card-neutral margin-top">
+                <div class="row">
+                    <span class="heading margin-right-small">{{ entry["name"] }}</span>
+                    <span class="small margin-top-small margin-right-small">{{ entry["genre"] }}</span>
+                    <img style="align-self: center;" src="assets/{{ entry["engine"] }}.png" height="24px">
+                </div>
+                {{ entry["description"] }}
+                {% for warning in entry["warnings"] %}
+                <span style="font-weight: 700;">⚠️ {{ warning }} ⚠️</span>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        <div class="column card-no">
+            <span style="font-size: 24px; font-weight: 700;">No. Just no.</span>
+            <span>Yikes. Do people play this?</span>
+            {% for entry in data["bad"] %}
+            <div class="column card-neutral margin-top">
+                <div class="row">
+                    <span class="heading margin-right-small">{{ entry["name"] }}</span>
+                    <span class="small margin-top-small margin-right-small">{{ entry["genre"] }}</span>
+                    <img style="align-self: center;" src="assets/{{ entry["engine"] }}.png" height="24px">
+                </div>
+                {{ entry["description"] }}
+                {% for warning in entry["warnings"] %}
+                <span style="font-weight: 700;">⚠️ {{ warning }} ⚠️</span>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>
