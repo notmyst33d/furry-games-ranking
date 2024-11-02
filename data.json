@@ -25,6 +25,22 @@
             "description": "Overall story is good but sometimes it's a bit lacking(bad character development, tons of inner monologue). Art direction is good."
         },
         {
+            "name": "Gene-Ric College",
+            "genre": "Visual Novel",
+            "engine": "renpy",
+            "warnings": [],
+            "epic": true,
+            "description": "Good and deep story. Characters are well written. Unfortunately it's abandoned."
+        },
+        {
+            "name": "A Catfiends Impending Relapse",
+            "genre": "3D Platformer",
+            "engine": "unity",
+            "warnings": ["Your ass will be burnt by the end of this game"],
+            "epic": true,
+            "description": "Foddian game where you play as a catfiend. Story is good. Character controls are very sensitive and you need to adjust to them."
+        },
+        {
             "name": "Purrfect Apawcalypse Series",
             "genre": "Visual Novel",
             "engine": "renpy",
