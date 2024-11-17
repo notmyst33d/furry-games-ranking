@@ -1,6 +1,14 @@
 {
     "good": [
         {
+            "name": "Klonoa Phantasy Reverie Series",
+            "genre": "3D Platformer",
+            "engine": "unity",
+            "warnings": [],
+            "epic": true,
+            "description": "This game is very fun, but also very hardcore, some puzzles have extremely tight timing, and some platforming sections require intense button mashing, but overall this game is pretty good."
+        },
+        {
             "name": "FixFox",
             "genre": "2D Top-down Sci-Fi Open-world Adventure",
             "engine": "unity",
@@ -15,6 +23,14 @@
             "warnings": [],
             "epic": true,
             "description": "Amazing and intriguing game. Even though it has some bugs which can softlock you, it's definitely worth playing. If you do get softlocked, you can change levels with Page Up/Page Down buttons on your keyboard."
+        },
+        {
+            "name": "Back to the Dawn",
+            "genre": "2D Simulator",
+            "engine": "unity",
+            "warnings": [],
+            "epic": true,
+            "description": "Same premise as The Escapists, but there is a very good and addicting story, on top of that there is a lot of game mechanics that doesnt get boring."
         },
         {
             "name": "Promises to Keep",
@@ -65,7 +81,7 @@
             "description": "Nice and responsive controls. Amazing art direction. I spent a lot of time just fucking around with physics and going out of bounds. Unfortunately it seems like it's abandoned."
         },
         {
-            "name": "Web Fishing",
+            "name": "Web Fishing (Game Jam Demo)",
             "genre": "3D Online Fishing Simulator",
             "engine": "godot",
             "warnings": [],
@@ -139,7 +155,7 @@
             "description": "Nothing much gameplay-wise. Environment and art direction looks good."
         },
         {
-            "name": "Shyondemic",
+            "name": "Shyondemic Demo",
             "genre": "2D Survival",
             "engine": "js",
             "warnings": ["Transfur"],
@@ -152,7 +168,7 @@
             "engine": "gm",
             "warnings": ["Transfur", "Vore"],
             "epic": false,
-            "description": "Very short demo, but lowkey kinda good."
+            "description": "Very short demo, but lowkey kinda good(fetish content however is not)."
         },
         {
             "name": "Sweet Mania",
