@@ -1,0 +1,235 @@
+[
+    {
+        "name": "Klonoa Phantasy Reverie Series",
+        "genre": "3D Platformer",
+        "engine": "unity",
+        "date": "2024",
+        "rating": 9.7,
+        "description": "This game is very fun, but also very hardcore, some puzzles have extremely tight timing, and some platforming sections require intense button mashing, but overall this game is pretty good."
+    },
+    {
+        "name": "FixFox",
+        "genre": "2D Top-down Sci-Fi Open-world Adventure",
+        "engine": "unity",
+        "date": "2024",
+        "rating": 9.5,
+        "description": "Overall gameplay is solid, but the story has a lot of padding. Art direction is great. There's also some cool references."
+    },
+    {
+        "name": "Project Re:VOLVE",
+        "genre": "2D JRPG",
+        "engine": "clickteam",
+        "date": "2024",
+        "rating": 9.6,
+        "hidden_gem": true,
+        "description": "Amazing and intriguing game. Even though it has some bugs which can softlock you, it's definitely worth playing. If you do get softlocked, you can change levels with Page Up/Page Down buttons on your keyboard."
+    },
+    {
+        "name": "Back to the Dawn",
+        "genre": "2D Simulator",
+        "engine": "unity",
+        "date": "2024",
+        "rating": 9.3,
+        "description": "Same premise as The Escapists, but there is a very good and addicting story, on top of that there is a lot of game mechanics that doesnt get boring."
+    },
+    {
+        "name": "Promises to Keep",
+        "genre": "Visual Novel",
+        "engine": "renpy",
+        "date": "2024",
+        "rating": 9.6,
+        "description": "Overall story is good but sometimes it's a bit lacking(bad character development, tons of inner monologue). Art direction is good."
+    },
+    {
+        "name": "Gene-Ric College",
+        "genre": "Visual Novel",
+        "engine": "renpy",
+        "date": "2024",
+        "rating": 9.3,
+        "description": "Good and deep story. Characters are well written. Unfortunately it's abandoned."
+    },
+    {
+        "name": "A Catfiends Impending Relapse",
+        "genre": "3D Platformer",
+        "engine": "unity",
+        "date": "2024",
+        "warnings": [
+            "Your ass will be burnt by the end of this game"
+        ],
+        "rating": 9.1,
+        "description": "Foddian game where you play as a catfiend. Story is good. Character controls are very sensitive and you need to adjust to them."
+    },
+    {
+        "name": "Purrfect Apawcalypse Series",
+        "genre": "Visual Novel",
+        "engine": "renpy",
+        "date": "2024",
+        "rating": 9.3,
+        "description": "Solid story. Cute art style is a big plus. Also has a reputation system which affects the story and dialogue."
+    },
+    {
+        "name": "Pawtualang Demo",
+        "genre": "2D RPG",
+        "engine": "js",
+        "date": "2024",
+        "rating": 8.5,
+        "description": "Has some Undertale/Deltarune vibes. Overall a pretty great experience, however there are some bugs. Last update was a pretty long time ago, so this game might be abandoned."
+    },
+    {
+        "name": "The Corner Of Dream",
+        "genre": "3D Platformer",
+        "engine": "unity",
+        "date": "2024",
+        "rating": 8.2,
+        "description": "Nice and responsive controls. Amazing art direction. I spent a lot of time just fucking around with physics and going out of bounds. Unfortunately it seems like it's abandoned."
+    },
+    {
+        "name": "Web Fishing (Game Jam Demo)",
+        "genre": "3D Online Fishing Simulator",
+        "engine": "godot",
+        "date": "2024",
+        "rating": 8.3,
+        "description": "Animal Crossing-like visuals. Pretty chill game. You have the option to host your own server or play in singleplayer mode."
+    },
+    {
+        "name": "The Nightmare Of All Furries",
+        "genre": "2D Shooter",
+        "engine": "godot",
+        "date": "2024",
+        "rating": 7.4,
+        "description": "You kill Boykissers. Peak gaming."
+    },
+    {
+        "name": "Way Back Home",
+        "genre": "Visual Novel",
+        "engine": "js",
+        "date": "2024",
+        "rating": 5.7,
+        "description": "Story and art style is meh. Didn't find it very enjoyable."
+    },
+    {
+        "name": "Anomaly Collapse",
+        "genre": "2D Post-apocalyptic RPG",
+        "engine": "unity",
+        "date": "2024",
+        "rating": 5.2,
+        "description": "Played it for 1-2 hours and got bored."
+    },
+    {
+        "name": "Fech The Ferret Demo",
+        "genre": "3D Adventure",
+        "engine": "unity",
+        "date": "2024",
+        "rating": 3.5,
+        "description": "Controller-focused, keyboard support is an afterthought, which creates a very confusing keyboard layout. No music except in rhythm levels. Demo is very short and can be completed in 30 minutes. Character movement is very buggy and you can easily get stuck or get thrown out of bounds."
+    },
+    {
+        "name": "ATLYSS",
+        "genre": "3D MMORPG",
+        "engine": "unity",
+        "date": "2024",
+        "warnings": [
+            "Suggestive content"
+        ],
+        "rating": 6.2,
+        "description": "Played it for 45 minutes and got bored."
+    },
+    {
+        "name": "Sticky Paws DX",
+        "genre": "2D Platformer",
+        "engine": "gm",
+        "date": "2024",
+        "rating": 7.0,
+        "description": "Crude art style, but it's ok I guess. I didn't find this game as something extraordinary, just a platformer, nothing special."
+    },
+    {
+        "name": "Ornament Tower",
+        "genre": "2D Puzzle",
+        "engine": "godot",
+        "date": "2024",
+        "rating": 6.8,
+        "description": "Looks good on the surface, but I didn't bother completing it, I'm not really a fan of puzzle games."
+    },
+    {
+        "name": "Project Shoreline",
+        "genre": "3D Adventure",
+        "engine": "unity",
+        "date": "2024",
+        "rating": 6.7,
+        "description": "Nothing much gameplay-wise. Environment and art direction looks good."
+    },
+    {
+        "name": "Shyondemic Demo",
+        "genre": "2D Survival",
+        "engine": "js",
+        "date": "2024",
+        "warnings": [
+            "Transfur"
+        ],
+        "rating": 6.6,
+        "description": "Day 7 is practically impossible, if it wasn't for this and fetish content I would've rated it higher."
+    },
+    {
+        "name": "Valp's Escape",
+        "genre": "2D RPG/Platformer",
+        "engine": "gm",
+        "date": "2024",
+        "warnings": [
+            "Transfur",
+            "Vore"
+        ],
+        "rating": 6.0,
+        "description": "Very short demo, but lowkey kinda good (fetish content however is not)."
+    },
+    {
+        "name": "Sweet Mania",
+        "genre": "Whatever this is",
+        "engine": "unity",
+        "date": "2024",
+        "warnings": [
+            "Fat fetish"
+        ],
+        "rating": 4.1,
+        "description": "You feed a creature called Yum, that's it. The only thing keeping this game's rating higher is the art style."
+    },
+    {
+        "name": "Goodbye Volcano High",
+        "genre": "Visual Novel",
+        "engine": "unity",
+        "date": "2024",
+        "rating": 3.2,
+        "description": "I don't think I need to explain. This horrid art style will haunt me in my nightmares."
+    },
+    {
+        "name": "Tails from Alteria",
+        "genre": "3D RPG (?)",
+        "engine": "unreal",
+        "date": "2024",
+        "rating": 3.9,
+        "description": "Utterly broken on low-end devices, dialogue box is FPS-dependent, if your FPS is lower than 60 FPS you have a chance to softlock the game. Also the game seems to be abandoned, so nobody will fix this bug."
+    },
+    {
+        "name": "Modem (aka 全数字梦境漫游)",
+        "genre": "3D Shooter",
+        "engine": "unreal",
+        "date": "2024",
+        "rating": 1.2,
+        "description": "Got stuck at parkour part. There's only one enemy, and it's some kind of twitching transparent blue slab which shoots blue orbs at you, very annoying to kill. No English whatsoever, so good luck."
+    },
+    {
+        "name": "Parsnip",
+        "genre": "2D RPG (?)",
+        "engine": "unreal",
+        "date": "2024",
+        "rating": 1.0,
+        "description": "Played it for 30 minutes and got bored. Art style is weird."
+    },
+    {
+        "name": "Furry Story (aka SNEZINKA/СНЕЖИНКА)",
+        "genre": "2D Walking Simulator",
+        "engine": "unreal",
+        "date": "2024",
+        "rating": 0.5,
+        "description": "Boring walking simulator."
+    }
+]
