@@ -61,7 +61,7 @@
 <style>
     @font-face {
         font-family: "Inter";
-        src: url(InterVariable.ttf);
+        src: url(/InterVariable.ttf);
     }
 
     :global(body) {
