@@ -59,7 +59,25 @@
 {/each}
 
 <style>
+    @font-face {
+        font-family: "Inter";
+        src: url(InterVariable.ttf);
+    }
+
     :global(body) {
+        font-family:
+            "Inter",
+            system-ui,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Oxygen,
+            Ubuntu,
+            Cantarell,
+            "Open Sans",
+            "Helvetica Neue",
+            sans-serif;
         max-width: 600px;
         margin: auto;
         padding-left: 16px;
