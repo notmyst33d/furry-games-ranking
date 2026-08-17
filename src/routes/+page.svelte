@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { resolve } from "$app/paths";
     import Capsule from "$lib/Capsule.svelte";
     import {
         getAverageRating,
@@ -19,7 +20,7 @@
 
 <div class="desktop">
     {#each sorted as combined}
-        <a class="flyout" href="/games/{combined.meta.id}">
+        <a class="flyout" href={resolve(`/games/${combined.meta.id}`)}>
             {#if combined.meta.tags.includes("editors_pick")}
                 <span class="editors-pick">⭐</span>
             {/if}
@@ -44,7 +45,7 @@
             <tbody>
                 <tr>
                     <td>
-                        <a href="/games/{combined.meta.id}">
+                        <a href={resolve(`/games/${combined.meta.id}`)}>
                             <Capsule
                                 name={combined.meta.name}
                                 src={combined.meta.capsule}

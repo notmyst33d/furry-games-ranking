@@ -1,9 +1,11 @@
 <script lang="ts">
+    import { resolve } from "$app/paths";
+
     let { children } = $props();
 </script>
 
 <header>
-    <a href="/">Furry Games Ranking</a>
+    <a href={resolve("/")}>Furry Games Ranking</a>
 </header>
 
 <div class="content">

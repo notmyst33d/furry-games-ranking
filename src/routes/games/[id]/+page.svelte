@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { asset } from "$app/paths";
     import Capsule from "$lib/Capsule.svelte";
     import {
         getAverageFixedRating,
@@ -23,7 +24,7 @@
                     {data.meta.name}
                     <img
                         class="engine-logo"
-                        src="/{data.meta.engine}.png"
+                        src={asset(`/${data.meta.engine}.png`)}
                         alt="Game engine logo"
                     />
                 </div>
