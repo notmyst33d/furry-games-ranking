@@ -1,0 +1,7 @@
+name = "FixFox"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1696220/library_600x900.jpg"
+url = "https://store.steampowered.com/app/1696220/FixFox/"
+genre = "2D Top-down Sci-Fi Open-world Adventure"
+engine = "unity"
+warnings = []
+tags = ["editors_pick"]

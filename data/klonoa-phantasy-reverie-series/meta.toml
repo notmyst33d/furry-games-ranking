@@ -1,0 +1,7 @@
+name = "Klonoa Phantasy Reverie Series"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1730680/library_600x900.jpg"
+url = "https://store.steampowered.com/app/1730680/Klonoa_Phantasy_Reverie_Series/"
+genre = "3D Platformer"
+engine = "unity"
+warnings = []
+tags = ["editors_pick"]

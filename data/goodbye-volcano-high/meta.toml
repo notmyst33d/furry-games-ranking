@@ -1,0 +1,8 @@
+name = "Goodbye Volcano High"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1310330/library_600x900.jpg"
+url = "https://store.steampowered.com/app/1310330/Goodbye_Volcano_High"
+genre = "Visual Novel"
+engine = "unity"
+warnings = []
+tags = []
+

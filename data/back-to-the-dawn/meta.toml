@@ -1,0 +1,8 @@
+name = "Back to the Dawn"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1735700/36d4ab5705244b0c7957fbd26199b5870e07d31b/library_600x900.jpg"
+url = "https://store.steampowered.com/app/1735700/Back_to_the_Dawn/"
+genre = "2D Simulator"
+engine = "unity"
+warnings = []
+tags = []
+

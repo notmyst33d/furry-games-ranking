@@ -1,0 +1,8 @@
+name = "The Nightmare Of All Furries"
+# capsule = ""
+# url = ""
+genre = "2D Shooter"
+engine = "godot"
+warnings = ["Lost Media?"]
+tags = []
+

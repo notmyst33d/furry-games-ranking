@@ -1,0 +1,7 @@
+name = "Anomaly Collapse"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2082410/library_600x900.jpg"
+url = "https://store.steampowered.com/app/2082410/Anomaly_Collapse/"
+genre = "2D Post-apocalyptic RPG"
+engine = "unity"
+warnings = []
+tags = []

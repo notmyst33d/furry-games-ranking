@@ -1,0 +1,8 @@
+name = "Ornament Tower Prototype"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4780280/9d3c8493c30355754accdd7f78f19ead5a5492cc/library_capsule.jpg"
+url = "https://lotovik.itch.io/ornament-tower"
+genre = "2D Puzzle"
+engine = "godot"
+warnings = []
+tags = []
+

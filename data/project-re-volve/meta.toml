@@ -1,0 +1,7 @@
+name = "Project RE:VOLVE"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4049450/03f54620cef31729c8221ca122b6bb2f2afcdf9f/library_capsule.jpg"
+url = "https://nikuwolf.itch.io/project-revolve"
+genre = "2D JRPG"
+engine = "clickteam"
+warnings = []
+tags = ["editors_pick"]

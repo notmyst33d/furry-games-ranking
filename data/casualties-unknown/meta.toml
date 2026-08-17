@@ -1,0 +1,8 @@
+name = "Casualties: Unknown"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576490/2876bd25f1c82af501ba6e1befa7c8cc5178ce07/library_capsule.jpg"
+url = "https://store.steampowered.com/app/4576490/Casualties_Unknown/"
+genre = "2D Survival"
+engine = "unity"
+warnings = ["Gore"]
+tags = ["editors_pick"]
+
