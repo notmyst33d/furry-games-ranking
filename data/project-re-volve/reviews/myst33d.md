@@ -2,7 +2,7 @@
 author: Myst33d
 lang: en
 date: 2024-01-01
-labels: []
+labels: ["hidden_gem"]
 
 ratingGameplay: 9.6
 ratingStory: 9.6
