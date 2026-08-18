@@ -3,7 +3,6 @@
     import Capsule from "$lib/Capsule.svelte";
     import {
         getAverageFixedRating,
-        getAverageRating,
         getRatingClassFromReviews,
         getRatingLabel,
         getRatingLabelClass,
@@ -45,9 +44,13 @@
                     {/each}
                 </div>
                 {#if typeof data.meta.url === "string" && data.meta.url !== ""}
-                    <a class="official-page" href={data.meta.url}
-                        >→ Go to official page</a
+                    <a
+                        class="official-page"
+                        href={data.meta.url}
+                        target="_blank"
                     >
+                        → Go to official page
+                    </a>
                 {/if}
             </td>
         </tr>

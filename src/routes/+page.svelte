@@ -20,7 +20,10 @@
 
 <div class="desktop">
     {#each sorted as combined}
-        <a class="flyout" href={resolve(`/games/${combined.meta.id}`)}>
+        <a
+            class="capsule-clickable flyout"
+            href={resolve(`/games/${combined.meta.id}`)}
+        >
             {#if combined.meta.tags.includes("editors_pick")}
                 <span class="editors-pick">⭐</span>
             {/if}
@@ -45,7 +48,10 @@
             <tbody>
                 <tr>
                     <td>
-                        <a href={resolve(`/games/${combined.meta.id}`)}>
+                        <a
+                            class="capsule-clickable"
+                            href={resolve(`/games/${combined.meta.id}`)}
+                        >
                             <Capsule
                                 name={combined.meta.name}
                                 src={combined.meta.capsule}
@@ -56,14 +62,19 @@
                         </a>
                     </td>
                     <td class="meta-cell">
-                        <div class="title">{combined.meta.name}</div>
-                        <div
-                            class="rating {getRatingClassFromReviews(
-                                combined.reviews,
-                            )}"
+                        <a
+                            class="meta-cell-expand"
+                            href={resolve(`/games/${combined.meta.id}`)}
                         >
-                            {getAverageFixedRating(combined.reviews)}
-                        </div>
+                            <div class="title">{combined.meta.name}</div>
+                            <div
+                                class="rating {getRatingClassFromReviews(
+                                    combined.reviews,
+                                )}"
+                            >
+                                {getAverageFixedRating(combined.reviews)}
+                            </div>
+                        </a>
                     </td>
                 </tr>
             </tbody>
@@ -81,11 +92,31 @@
         vertical-align: top;
     }
 
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .meta-cell {
+        position: relative;
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    .meta-cell-expand::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+
     .desktop a :global(.capsule) {
         box-shadow: none;
     }
 
-    a {
+    .capsule-clickable {
         display: block;
         position: relative;
         text-decoration: none;
@@ -96,8 +127,8 @@
         transition-timing-function: cubic-bezier(0.04, 1, 0.37, 0.97);
     }
 
-    a:hover,
-    a:focus {
+    .capsule-clickable:hover,
+    .capsule-clickable:focus {
         z-index: 1;
         box-shadow: 0px 12px 20px #131313;
         transform: perspective(5cm) translate3d(0, 0, 10px)
@@ -141,20 +172,20 @@
             display: block;
         }
 
-        a {
+        .capsule-clickable {
             margin: 0;
         }
 
-        a :global(.capsule) {
+        .capsule-clickable :global(.capsule) {
             width: 120px;
             height: 180px;
             margin: 0;
         }
 
         .editors-pick {
-            top: -16px;
-            left: -8px;
-            font-size: 16px;
+            top: -20px;
+            left: -12px;
+            font-size: 24px;
         }
     }
 
@@ -165,11 +196,6 @@
     .title {
         font-weight: 800;
         font-size: 20px;
-    }
-
-    .meta-cell {
-        width: 100%;
-        padding-left: 16px;
     }
 
     .flyout .flyout-container {
