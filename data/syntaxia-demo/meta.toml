@@ -1,0 +1,7 @@
+name = "SYNTAXIA Demo"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2920940/library_600x900.jpg"
+url = "https://store.steampowered.com/app/2920940/SYNTAXIA/"
+genre = "2D Adventure"
+engine = "unity"
+warnings = []
+tags = []
