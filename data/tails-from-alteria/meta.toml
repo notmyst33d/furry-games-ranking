@@ -1,7 +1,7 @@
 name = "Tails From Alteria"
 capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1821850/library_600x900.jpg"
 url = "https://store.steampowered.com/app/1821850/Tails_From_Alteria/"
-genre = "3D RPG (?)"
+genre = "3D RPG"
 engine = "unreal"
 warnings = []
 tags = []

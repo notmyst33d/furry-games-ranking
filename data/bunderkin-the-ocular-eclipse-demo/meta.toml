@@ -1,0 +1,7 @@
+name = "Bunderkin: The Ocular Eclipse Demo"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4332870/aac89184e29ca164f8c116c8788426527562cadd/library_capsule.jpg"
+url = "https://store.steampowered.com/app/4332870/Bunderkin_The_Ocular_Eclipse/"
+genre = "3D Adventure"
+engine = "unreal"
+warnings = []
+tags = []

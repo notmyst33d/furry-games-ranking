@@ -47,7 +47,7 @@ export async function parseReview(data: string): Promise<Review> {
     if (start === -1) {
         throw "cannot parse metadata";
     }
-    const end = data.lastIndexOf("---\n");
+    const end = data.indexOf("---\n", start + 4);
     if (end === -1) {
         throw "cannot parse metadata";
     }

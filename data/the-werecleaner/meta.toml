@@ -1,0 +1,7 @@
+name = "The WereCleaner"
+capsule = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2795000/library_600x900.jpg"
+url = "https://store.steampowered.com/app/2795000/The_WereCleaner/"
+genre = "3D Isometric Stealth Cleaning"
+engine = "unity"
+warnings = ["Gore"]
+tags = ["editors_pick"]
