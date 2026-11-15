@@ -1,16 +1,34 @@
 ---
 author: Myst33d
 lang: en
-date: 2026-08-18
+date: 2026-11-15
 labels: []
 
-ratingGameplay: 1.0
-ratingStory: 1.0
-ratingVisual: 2.5
-ratingReplayability: 0.0
+ratingGameplay: 7.8
+ratingStory: 7.5
+ratingVisual: 6.0
+ratingReplayability: 6.2
 
-ratingOverall: 1.5
+ratingOverall: 7.1
 ---
+
+The prodigal son returns, but now IT'S GOOD. I can't believe I'm saying this, but I enjoyed playing the new demo.
+
+Game has been rewritten from ground up in Godot, all of the previous jank now is gone.
+
+There are tutorials now, the game explains how to fight.
+
+Some environments are raw blockouts or unpolished, but still heaps better than previous ones.
+
+There is gameplay now besides the usual RPG stuff, you get to snowboard and fly a stolen plane.
+
+The story is now about Jeeve and Jayla in their childhood instead of a random mission without any context.
+
+Fighting mechanics are WAY better, you can actually figure out the timing of attacks. I actually WANTED to fight the enemies instead of actively avoiding them. And you know what the best part is? YOU CAN LEVEL UP! You get XP from enemies and you can upgrade your characters stats.
+
+---
+
+2026-08-18
 
 I got a better PC, but the game didn't get better, I only got to see the worse parts of the game.
 

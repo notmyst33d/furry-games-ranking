@@ -1,8 +1,8 @@
 name = "The Nightmare Of All Furries"
-# capsule = ""
-# url = ""
+capsule = "https://img.itch.zone/aW1nLzI0NDI1OTYyLnBuZw==/315x250%23c/o9QsDA.png"
+url = "https://godoined.itch.io/thenightmareofallfurries"
 genre = "2D Shooter"
 engine = "godot"
-warnings = ["Lost Media?"]
+warnings = []
 tags = []
 
